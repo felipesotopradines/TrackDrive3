@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.trackdrive3",
+  "appName": "TrackDrive3",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

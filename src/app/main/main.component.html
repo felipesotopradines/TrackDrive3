@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Bienvenido</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fade-in">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Bienvenido {{ name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button (click)="goToChangePassword()">Cambiar Contraseña</ion-button>
+      <ion-button (click)="logout()">Logout</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
